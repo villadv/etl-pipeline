@@ -1,4 +1,3 @@
-=======
 # Medallion ETL Pipeline
 
 An end-to-end ETL project built in Python and pandas using a Bronze, Silver, and Gold medallion architecture. The pipeline ingests mixed-format raw data, standardizes inconsistent records, and produces analytics-ready summary tables for reporting.
