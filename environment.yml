@@ -1,0 +1,8 @@
+name: medallion-etl
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - pyarrow
+  - jupyter

@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+Medallion Architecture/bronze/*.parquet
+Medallion Architecture/silver/*.parquet
+Medallion Architecture/gold/*.parquet
+
+.DS_Store
+Thumbs.db
