@@ -147,4 +147,3 @@ This project demonstrates how to design an ETL pipeline that goes beyond noteboo
 - add automated data quality tests
 - add charts or dashboard screenshots for the Gold layer
 - add CI to validate the pipeline automatically
->>>>>>> 7fd5cd3 (Add ETL pipeline project)
