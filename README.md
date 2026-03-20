@@ -118,32 +118,3 @@ jupyter notebook
 bronze.ipynb -> silver.ipynb -> gold.ipynb
 ```
 
-## What To Include On GitHub
-
-Recommended to keep:
-
-- `bronze.ipynb`
-- `silver.ipynb`
-- `gold.ipynb`
-- `Transactions/`
-- `assets/`
-- `README.md`
-- `PROJECT_SUMMARY.md`
-- `environment.yml`
-
-Recommended to exclude:
-
-- `.ipynb_checkpoints/`
-- generated parquet files in `Medallion Architecture/`
-- temporary notebook artifacts
-
-## Portfolio Summary
-
-This project demonstrates how to design an ETL pipeline that goes beyond notebook-based analysis and moves toward a more realistic analytics engineering workflow. It highlights data ingestion, data quality improvement, dimensional standardization, and generation of reusable outputs for downstream reporting.
-
-## Next Improvements
-
-- refactor notebook logic into reusable Python modules
-- add automated data quality tests
-- add charts or dashboard screenshots for the Gold layer
-- add CI to validate the pipeline automatically
